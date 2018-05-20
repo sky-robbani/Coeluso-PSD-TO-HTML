@@ -1,0 +1,179 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.carousel-caption h3 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.baner-section h1 {
+    font-size: 44px;
+}
+.baner-section p {
+    font-size: 16px;
+}
+.features-section {
+    background-position: 0%;
+    background-size: 70%;
+}
+.features h1 {
+    font-size: 24px;
+}
+.feature-heading h1 {
+    font-size: 44px;
+}
+.feature-content-section {
+    padding-bottom: 120px;
+    background-image: none;
+}
+.carousel-caption h3 {
+    font-size: 16px;
+    line-height: 30px;
+    margin: -30px 0px;
+}
+.carousel-caption ul{
+    margin-top: 34px;
+}
+.carousel-indicators li {
+    margin-bottom: 10px;
+}
+footer {
+    padding: 0px;
+}
+footer ul {
+    margin-top: 24px;
+}
+footer .nav .nav-item a {
+    padding-right: 14px;
+}
+.copyright {
+    font-size: 12px;
+    margin-top: 30px;
+}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.apps-screens-section {
+    padding: 120px 0px;
+    background-position: center;
+}
+.baner-section button.custom-button {
+    margin-top: 20px;
+}
+.baner-section p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.baner-section h1 {
+    font-size: 26px;
+}
+.features {
+    padding: 100px 0px;
+}
+.features h1 {
+    text-align: center;
+    font-size: 26px;
+}
+.features p{
+    text-align: center;
+    margin-bottom: 50px
+}
+.features-section {
+    background: none;
+}
+.features button.custom-button {
+    display: block;
+    margin: 0 auto;
+}
+.feature-heading h1 {
+    padding-bottom: 50px;
+    font-size: 26px;
+}
+.feature-content-section {
+    padding-bottom: 120px;
+    background: none;
+}
+.features-content-part img {
+    display: block;
+    margin: 0 auto;
+}
+.features-content-part h3 {
+    text-align: center;
+    font-size: 22px;
+}
+.features-content-part p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+}
+.features-perspective-section {
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-bottom: 50px;
+}
+.features-perspective-section img {
+    display: block;
+    margin: 0 auto;
+}
+.features-perspective-section p {
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.w-100 {
+    height: 500px!important;
+}
+.carousel-caption {
+    top: 10%;
+}
+.carousel-caption h3 {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.carousel-caption ul li {
+    display: inline-block;
+    font-size: 12px;
+}
+.speacing {
+    padding: 70px 0px;
+}
+.download-apps-section {
+    padding: 70px 0px;
+}
+.apps-heading h2 {
+    font-size: 26px;
+}
+.apps-heading p {
+    font-size: 12px; 
+    padding-bottom: 60px;
+}
+
+.custom-button {
+    padding: 10px;
+    font-size: 14px;
+}
+footer {
+    padding: 20px 0px;
+}
+footer .nav,footer .copyright{
+    justify-content: center;
+    text-align: center!important;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.apps-screens-section {
+    padding: 120px 0px;
+    background-position: center;
+}
+.features-section {
+    padding: 0;
+    background-size: 60%;
+    background-position: 0% 40%;
+}
+}
